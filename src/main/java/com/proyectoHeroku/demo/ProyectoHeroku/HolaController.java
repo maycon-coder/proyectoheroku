@@ -1,4 +1,4 @@
-package com.proyectoHeroku.demo.ProyectoHeroku; // ← asegúrate que coincida con tu paquete
+package com.proyectoHeroku.demo.ProyectoHeroku;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +8,6 @@ public class HolaController {
 
     @GetMapping("/")
     public String saludo() {
-        return "Hola, mi aplicación ya está en Internet 🌐";
+        return "Hola, mi aplicacion ya esta en Internet";
     }
-}cd C:\Users\ACER\Downloads\demo.ProyectoHeroku\demo.ProyectoHeroku
+}
